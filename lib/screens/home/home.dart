@@ -11,8 +11,16 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text(
-        "Home",
+      child: Column(
+        childen[
+          Container(
+            image: AssetsImage(
+              // "Assets/images/img1.png"
+            ),
+          ),
+        ],
+      ),
+        
       ),
     );
   }
